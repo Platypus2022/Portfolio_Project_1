@@ -9,6 +9,9 @@
 body{
     font-family: Lato, sans-serif;
     color: #3a3a3a;
+    background-image: url("../images/horiz-banner-vcreporter.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 /* headings and logo */
@@ -54,4 +57,19 @@ h1, h2{
 
 .active{
     border-bottom: 1px solid #3a3a3a;
+}
+
+/*#banner-outer{
+    height:400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+#banner-image{
+    height:400px;
+    width: 100%;
+    background-image: url("../images/horiz-banner-vcreporter.jpg") no-repeat center center;*/
+    
 }
