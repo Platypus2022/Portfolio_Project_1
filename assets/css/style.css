@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
 
 *{
     margin:0;
@@ -6,28 +7,53 @@
     border:0;
 }
 
-body{
-    font-family: Lato, sans-serif;
-    color: cornsilk;
-    background-image: url("../images/horiz-banner-vcreporter.jpg");
-    background-repeat: no-repeat;
+
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:contain;
+    }
+    
+    /* set background image per page */
+    .home-bg {
+    background-color: black;
+    background: url("../images/horiz-banner-vcreporter.jpg") no-repeat;
     background-size:cover;
+    }
+    .zen-bg {
+    background: url(images/about.bg.jpg) no-repeat center center fixed;
+    }
+    .joinus-bg {
+    background-color: black;
+    background: url("../images/guillaume-nery-cnn.jpg") no-repeat;
+    background-size:cover;
+    }
+
+
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: cornsilk;
+     
     
 }
 
 /* headings and logo */
 
-h1, h2{
-    font-family: Oswald, sans-serif;
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     
 }
 
 #logo{
-    float: left;
+    float: right;
     font-size: 280%;
-    margin-left: 30px;
+    margin-right: 50px;
 }
 
 
@@ -37,6 +63,7 @@ h1, h2{
 #menu{
     font-size: 110%;
     letter-spacing: 2px;
+    float:left;
 }
 
 #logo, #menu{
@@ -47,7 +74,7 @@ h1, h2{
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
 #menu a {
@@ -66,30 +93,34 @@ h1, h2{
 /*banner */
 
 
-#banner-text {
-    margin:30px;
-    height:200px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    color:cornsilk;
+#banner {
+    clear:both;
+    padding-top:10px;
+    padding-right:120px;
+    font-size:80%;
+    float:right;  
+      
     
 }
 
 
-/*about boxes*/
+/*about us*/
 
-#about-us{
-    float:right;
-    width:33%;
-    margin-top:50px;
-    padding: 20px;
+
+#about-us, #join-us-blarb {
+    clear:both;
+    padding-top:100px;
+    padding-right:30px;
+    
+    float:right;  
     line-height: 1.6;
     letter-spacing:2px;
+    text-align:justify;
 
-    /*background-color:rgba(0, 183, 255, 0.4);*/
+    }
+#join-us-blarb {
+    padding-right:120px;
 }
-
 
 /* Footer */
 
@@ -119,4 +150,58 @@ footer{
     margin: 1%;
     padding: 0 5% 0 5%;
     color: cornsilk;
+}
+
+/* Form */
+
+.form-section {
+    clear: left;
+    height: 1200px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width:450px;
+    position:absolute;
+    left: 5%;
+    padding:30px;
+    
+}
+.signup-form h2 {
+    color: #fafafa;
+    margin-bottom:20px;
+}
+
+.text-input {
+    background:transparent;
+    color: #fafafa;
+    width: 100%;
+    height:25px;
+    margin: 5px 0 20px;
+    border:1px solid #fafafa;
+    border-radius:2px;
+}
+
+.text-input:hover {
+   border-color: darkblue;
+}
+
+.join-button {
+    margin-top:20px;
+    border-radius:2px;
+    padding:15px 32px 15px 32px;
+    text-align:center;
+    font-size: 100%;
+    background-color:lightblue;
+    color:darkblue;
+    display:block;
+    
+}
+
+.join-button:hover {
+    background-color:#fafafa;
+    color:#f16c6b;
+
 }
