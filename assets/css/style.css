@@ -23,6 +23,8 @@ html {
     }
     .zen-bg {
     background-color:rgb(44, 133, 206); 
+    background: url("../images/viktor-tar-underwater.jpg") no-repeat;
+    background-size:cover;
     }
     .joinus-bg {
     background-color: black;
@@ -211,6 +213,7 @@ footer{
 #zen-heading {
     padding:200px 0 50px 0;
     text-align:center;
+    font-style: italic;
 }
 
 
@@ -225,4 +228,16 @@ footer{
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+    background-size:cover;
+    
 }
+.zen-bg-1 {
+    background-image: url(../images/whaleshark-greenpeace.jpg);
+    }
+
+.zen-bg-2 {
+        background-image: url(../images/yoga-history-com.jpg);
+        }
+.zen-bg-3 {
+            background-image: url(../images/Aran-Islands-shamrock-craic.jpeg);
+            }
