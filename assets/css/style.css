@@ -22,7 +22,7 @@ html {
     background-size:cover;
     }
     .zen-bg {
-    background: url(images/about.bg.jpg) no-repeat center center fixed;
+    background-color:rgb(44, 133, 206); 
     }
     .joinus-bg {
     background-color: black;
@@ -56,7 +56,18 @@ h1, h2 {
     margin-right: 50px;
 }
 
+/*banner */
 
+
+#banner {
+    clear:both;
+    padding-top:10px;
+    padding-right:120px;
+    font-size:80%;
+    float:right;  
+      
+    
+}
 
 /* navigation links */
 
@@ -90,18 +101,7 @@ h1, h2 {
     border-bottom: 2px solid cornsilk;
 }
 
-/*banner */
 
-
-#banner {
-    clear:both;
-    padding-top:10px;
-    padding-right:120px;
-    font-size:80%;
-    float:right;  
-      
-    
-}
 
 
 /*about us*/
@@ -152,7 +152,7 @@ footer{
     color: cornsilk;
 }
 
-/* Form */
+/* Join Us Form */
 
 .form-section {
     clear: left;
@@ -204,4 +204,25 @@ footer{
     background-color:#fafafa;
     color:#f16c6b;
 
+}
+
+/* zen boxes */
+
+#zen-heading {
+    padding:200px 0 50px 0;
+    text-align:center;
+}
+
+
+#zen-box {
+    
+    float:left;
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    width: 33.3%;
+    height: 400px;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
 }
