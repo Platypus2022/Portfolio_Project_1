@@ -31,7 +31,7 @@ This web site consists of three pages:
   - This page introduces the user to the Forty Fathom Freedivers website with a rather chilly image of a free-diver among some huge marine plants (courtesy of vcereporter)
   - The landing page wets the appetite launches the user to the Zen and Join Us pages
 
-![Landing Page](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-index.png)
+![Landing Page](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-index.PNG)
 
 - __Zen page__
 
