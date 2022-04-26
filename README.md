@@ -31,7 +31,7 @@ This web site consists of three pages:
   - This page introduces the user to the Forty Fathom Freedivers website with a rather chilly image of a free-diver among some huge marine plants (courtesy of vcereporter)
   - The landing page wets the appetite launches the user to the Zen and Join Us pages
 
-![Landing Page](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-index.png)
+![Landing Page](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-index.PNG)
 
 - __Zen page__
 
@@ -49,7 +49,7 @@ This web site consists of three pages:
   - This page has a beautiful background image of the famoud free-diver Guillaume Nery among sharks (courtesy of CNN.com)
   - the join-up form allows allows one to enter name, address, e-mail address, their experience with free-diving and any material they might need when contavted for a dive
 
-![Meetup Times](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-join-us.png)
+![Meetup Times](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-join-us.PNG)
 
 - __The Footer__ 
 
@@ -80,7 +80,7 @@ I also tried it on my tablet (Lenovo) and smartphone (Samsung SM-G950F), both An
 
 Lighthouse was used to test performance and gave the following scores:
 
-![Lighthouse](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/lighthouse-performance.png)
+![Lighthouse](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/lighthouse-performance.PNG)
 
 
 ### Unfixed Bugs
