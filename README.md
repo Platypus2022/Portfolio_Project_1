@@ -1,13 +1,13 @@
-# Forty Fathom Freedivers
-
-
 Welcome! [code institute](https://codeinstitute.net)
 
-# Love Running
+# Forty Fathom Freedivers
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+Forty Fathom Freedivers is a fictious group of free-divers based in the southwest of Ireland. They love to go out in the cold Atlantic water and dive the many coves and bays there. Forty Fathoms might be a bit ambitious for this motely crew, but that's their ambition.
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+The Forty Fathom Freedivers would like to share their knowledge, skills and probably a few hot whiskeys with anyone - beginner or seasoned - who dares face the cold waters.
+
+Their sales-pitch might not be great, and the truth may be slightly 'alternative', but as this is their first attempt at a website it can only improve in the future. The free-divers like to keep the intro as jolly and non-technical as possible so as not to scare potential members away.
+
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
