@@ -55,7 +55,7 @@ This web site consists of three pages:
 
   - The footer section provides links to all the major social media sites
 
-![Footer](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-footer.png)
+![Footer](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-footer.PNG)
 
 ## Testing 
 
@@ -88,6 +88,19 @@ Lighthouse was used to test performance and gave the following scores:
 I tried to fix the performance issue where caching is recommended (/*<meta http-equiv="cache-control" content="public">
     <meta http-equiv="cache-control" max-age="31536000">*/), but this did not work.
 I am aware that as I am using a lot of images as background, if these do not load, a dark schreen should be loaded in their place. I tried this with using background-color: black, just before the image url in CCS but it did not work.
+I noticed a bit late that my screen grabber put the png file extensions in uppercase. I tried to change this to lowercase after I had pusthed the files to Github but this gave the following error:
+
+        gitpod /workspace/Portfolio_Project_1 (main) $ git push
+        To https://github.com/Platypus2022/Portfolio_Project_1.git
+         ! [rejected]        main -> main (fetch first)
+        error: failed to push some refs to 'https://github.com/Platypus2022/Portfolio_Project_1.git'
+        hint: Updates were rejected because the remote contains work that you do
+        hint: not have locally. This is usually caused by another repository pushing
+        hint: to the same ref. You may want to first integrate the remote changes
+        hint: (e.g., 'git pull ...') before pushing again.
+        hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+The file extensions are therefore in uppercase instead of the preferred lowercase.
 
 ## Deployment
 
