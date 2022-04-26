@@ -327,4 +327,41 @@ footer {
         #zen-box {
             height: 1800px;
         }
-    }
+
+        /* For small screens sizes from 300px wide and down */
+        @media screen and (max-width: 300px) {
+            #menu {
+                clear: both;
+                float: left;
+                width: 100%;
+                font-size: 100%;
+
+
+            }
+
+
+
+            #logo {
+                float: left;
+                font-size: 150%;
+                line-height: 1.25em;
+            }
+
+
+
+            #banner,
+            #zen-heading,
+                {
+                padding-top: 10px;
+                font-size: 45%;
+            }
+
+            #about-us: {
+                font-size: 60%;
+            }
+
+            #zen-box {
+                font-size: 75%;
+            }
+
+        }
