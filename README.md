@@ -120,7 +120,7 @@ Credits mostly to Code Institute for bringing me this far.
 ### Media
 
 - Thanks to the follow sites for the photos:
--   Aran-ilsnads-craic
+-   Aran-islands-craic
 -   vcereporter
 -   CNN
 -   Scubadiverlife
