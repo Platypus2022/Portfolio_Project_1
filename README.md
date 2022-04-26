@@ -42,7 +42,7 @@ This web site consists of three pages:
 
   The background of the page is a beautiful underwayer image taken by Viktor Tar
 
-![Zen text](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-zen.png)
+![Zen text](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-zen.PNG)
 
 - __Join Us page__
 
