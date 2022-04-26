@@ -9,7 +9,7 @@ The Forty Fathom Freedivers would like to share their knowledge, skills and prob
 Their sales-pitch might not be great, and the truth may be slightly 'alternative', but as this is their first attempt at a website it can only improve in the future. The free-divers like to keep the intro as jolly and non-technical as possible so as not to scare potential members away.
 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/Platypus2022/Portfolio_Project_1/blob/main/assets/images/Aran-Islands-shamrock-craic.jpeg)
 
 ## Features 
 
