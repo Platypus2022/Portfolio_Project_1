@@ -9,7 +9,7 @@ The Forty Fathom Freedivers would like to share their knowledge, skills and prob
 Their sales-pitch might not be great, and the truth may be slightly 'alternative', but as this is their first attempt at a website it can only improve in the future. The free-divers like to keep the intro as jolly and non-technical as possible so as not to scare potential members away.
 
 
-![Responsive Mockup](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/ami-responsive.PNG)
+![Responsive Mockup](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/ami-responsive.png)
 
 ## Features 
 
@@ -31,7 +31,7 @@ This web site consists of three pages:
   - This page introduces the user to the Forty Fathom Freedivers website with a rather chilly image of a free-diver among some huge marine plants (courtesy of vcereporter)
   - The landing page wets the appetite launches the user to the Zen and Join Us pages
 
-![Landing Page](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-index.PNG)
+![Landing Page](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-index.png)
 
 - __Zen page__
 
