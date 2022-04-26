@@ -283,7 +283,10 @@ footer {
         padding: 0 15px 0 15px;
         margin-top: 15px;
     }
-
+    .signup-form {
+        clear: both;
+        position:relative;
+    }
 
     /* For medium screens sizes from 950px wide and down */
     @media screen and (max-width: 950px) {

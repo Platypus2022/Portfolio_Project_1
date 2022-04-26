@@ -14,54 +14,48 @@ Their sales-pitch might not be great, and the truth may be slightly 'alternative
 ## Features 
 
 This web site consists of three pages:
-- The landing page introduces the person browsing the site to the group and who they are and why one should join them
+- The landing page introduces the person browsing the site to the group, who they are and why one should join them
 - The Zen page explains some of the virtues of free-diving for one's health and the sheer beauty of the ocean
 - The Join Us page allows one to join the group for a free-diving session
 
 
 ### Existing Features
 
-Responsive design was a tricky ssue, and while I put a lot of work into the different screen layouts, ami.responsivedesign.is did show a few issues, as did Google Chrome; I tried to iron out most of them.  
-
-
 - __Navigation Bar__
 
-  - For the Navigation bar, I re-used a lot of the code from the Love Running site; as I had created the code step-by-step during the course, I do consider it my own.
-  - The navigation bar is repeated on all three pages of the site, allowing navigation from each page. Additionally, I embedded links to the Zen and Join-Up pages in the text of the landing page, which provide a short-cut for those who want to go straight from there.
+  - The Navigation bar is responsive and appears on each page
+  - Additionally, I embedded links to the Zen and Join-Up pages in the text of the landing page, which provide a short-cut for those who want to go straight from there.
 
 - __The Landing Page__
 
   - This page introduces the user to the Forty Fathom Freedivers website with a rather chilly image of a free-diver among some huge marine plants (courtesy of vcereporter)
-  - I really liked the land page image, with the large yellow flowering seaweed. Problem here ws that the yellow background was too bright for any text colour, so I had to float all text to right. For smaller screens it ultimately moves to the left anyway, but the text seems legible.
-  
+  - The landing page wets the appetite launches the user to the Zen and Join Us pages
 
-![Landing Page](/assets/images/fff-index.png)
+![Landing Page](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-index.png)
 
 - __Zen page__
 
-  This pages introduces the user to some of the experiences on offer, divided over three frames:
+  This page introduces the user to some of the experiences on offer, divided over three frames:
   - The Mammalian Diving Reaction with a background image of a seal (courtesy of scubadiverlife.com)
   - Breathing techniques with a background image of a person in the lotus position (courtesy of yoga history)
   - The Beauty of the Irish Atlantic with a background image of one of tha Aran islands (courtesy of Aran-islands-craic)
 
   The background of the page is a beautiful underwayer image taken by Viktor Tar
 
-  If knew then what I know now, I will use less images as background. I had a lot of work trying to have the text show up on them.
-
-![Zen text](https://github.com/Platypus2022/Portfolio_Project_1/blob/main/assets/images/fff-zen.png)
+![Zen text](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-zen.png)
 
 - __Join Us page__
 
   - This page has a beautiful background image of the famoud free-diver Guillaume Nery among sharks (courtesy of CNN.com)
   - the join-up form allows allows one to enter name, address, e-mail address, their experience with free-diving and any material they might need when contavted for a dive
 
-![Meetup Times](https://github.com/Platypus2022/Portfolio_Project_1/blob/main/assets/images/fff-join-us.png)
+![Meetup Times](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-join-us.png)
 
 - __The Footer__ 
 
-  - The footer section is a copy from the Love Running project, where I have added an additional LinkedIn link on a transparent background
+  - The footer section provides links to all the major social media sites
 
-![Footer](https://github.com/Platypus2022/Portfolio_Project_1/blob/main/assets/images/fff-footer.png)
+![Footer](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/fff-footer.png)
 
 ## Testing 
 
@@ -86,7 +80,7 @@ I also tried it on my tablet (Lenovo) and smartphone (Samsung SM-G950F), both An
 
 Lighthouse was used to test performance and gave the following scores:
 
-![Lighthouse](https://github.com/Platypus2022/Portfolio_Project_1/blob/main/assets/images/lighthouse-performance.png)
+![Lighthouse](https://github.com/Platypus2022/Portfolio_Project_1/raw/main/assets/images/lighthouse-performance.png)
 
 
 ### Unfixed Bugs
@@ -101,8 +95,8 @@ I am aware that as I am using a lot of images as background, if these do not loa
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - From the source section drop-down menu, select the Main Branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://platypus2022.github.io/Portfolio_Project_1/
 
