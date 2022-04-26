@@ -29,13 +29,13 @@ Responsive design was a tricky ssue, and while I put a lot of work into the diff
   - For the Navigation bar, I re-used a lot of the code from the Love Running site; as I had created the code step-by-step during the course, I do consider it my own.
   - The navigation bar is repeated on all three pages of the site, allowing navigation from each page. Additionally, I embedded links to the Zen and Join-Up pages in the text of the landing page, which provide a short-cut for those who want to go straight from there.
 
-- __The Landing page __
+- __The Landing Page__
 
   - This page introduces the user to the Forty Fathom Freedivers website with a rather chilly image of a free-diver among some huge marine plants (courtesy of vcereporter)
   - I really liked the land page image, with the large yellow flowering seaweed. Problem here ws that the yellow background was too bright for any text colour, so I had to float all text to right. For smaller screens it ultimately moves to the left anyway, but the text seems legible.
   
 
-![Landing Page](https://github.com/Platypus2022/Portfolio_Project_1/blob/main/assets/images/fff-index.png)
+![Landing Page](/assets/images/fff-index.png)
 
 - __Zen page__
 
@@ -69,17 +69,16 @@ I have test the code in Chrome, Firefox and MS Edge and checked responsiveness f
 
 I tried it with Safari for Windows 10 but the page would not load and gave no errors.
 
-I also tried ot on my tablet (Lenovo) and smartphone (Samsung SM-G950F), both Android devices, and the responsive design worked.
+I also tried it on my tablet (Lenovo) and smartphone (Samsung SM-G950F), both Android devices, and the responsive design worked.
 
 ### Validator Testing 
 
 - HTML
-  - Initially, errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fplatypus2022.github.io%2FPortfolio_Project_1%2F). These had to do with caching the background images, which I tried as a suggestion of Lighthouse to improve performance;  and providing alts for images used in the background, which apparently is not allowed.
-    
+  - Tested and found good with [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fplatypus2022.github.io%2FPortfolio_Project_1%2F). 
 
 
 - CSS
-  - Initially, about 3 parsing errors were found by [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fplatypus2022.github.io%2FPortfolio_Project_1&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). These were subsequentally removed.
+  - Tested and found good with [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fplatypus2022.github.io%2FPortfolio_Project_1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 
 
