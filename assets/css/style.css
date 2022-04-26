@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
 
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 
@@ -12,47 +12,53 @@ html {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size:contain;
-    }
-    
-    /* set background image per page */
-    .home-bg {
+    background-size: cover;
+}
+
+/* set background image per page */
+.home-bg {
     background-color: black;
     background: url("../images/horiz-banner-vcreporter.jpg") no-repeat;
-    background-size:cover;
-    }
-    .zen-bg {
-    background-color:rgb(44, 133, 206); 
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.zen-bg {
+    background-color: rgb(44, 133, 206);
     background: url("../images/viktor-tar-underwater.jpg") no-repeat;
-    background-size:cover;
-    }
-    .joinus-bg {
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.joinus-bg {
     background-color: black;
     background: url("../images/guillaume-nery-cnn.jpg") no-repeat;
-    background-size:cover;
-    }
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 
 
 
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     color: cornsilk;
-     
-    
+
+
 }
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    
+
 }
 
-#logo{
+#logo {
     float: right;
     font-size: 280%;
     margin-right: 50px;
@@ -62,26 +68,28 @@ h1, h2 {
 
 
 #banner {
-    clear:both;
-    padding-top:10px;
-    padding-right:120px;
-    font-size:80%;
-    float:right;  
-      
-    
+    clear: both;
+    padding-top: 10px;
+    padding-right: 120px;
+    font-size: 80%;
+    float: right;
+
+
 }
 
 /* navigation links */
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 2px;
-    float:left;
+    float: left;
+
 }
 
-#logo, #menu{
+#logo,
+#menu {
     line-height: 75px;
-    color:cornsilk;
+    color: cornsilk;
 }
 
 #menu li {
@@ -95,11 +103,11 @@ h1, h2 {
     color: inherit;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 2px solid #004e5c;
 }
 
-.active{
+.active {
     border-bottom: 2px solid cornsilk;
 }
 
@@ -109,45 +117,51 @@ h1, h2 {
 /*about us*/
 
 
-#about-us, #join-us-blarb {
-    clear:both;
-    padding-top:100px;
-    padding-right:30px;
-    
-    float:right;  
-    line-height: 1.6;
-    letter-spacing:2px;
-    text-align:justify;
-
-    }
+#about-us,
 #join-us-blarb {
-    padding-right:120px;
+    clear: both;
+    padding-top: 100px;
+    padding-right: 30px;
+    float: right;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    text-align: justify;
+
+}
+
+#join-us-blarb {
+    padding-right: 120px;
+}
+
+.link-text {
+    color: white;
+    font-weight: bold;
 }
 
 /* Footer */
 
-footer{
+footer {
     height: 60px;
-    position:fixed;
-    bottom:0;
-    width:100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: rgba(0, 183, 255, 0.4);
-       
+
 }
 
 
 
-.social-networks{
+.social-networks {
     text-align: center;
-    
+
 
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 200%;
     margin: 1%;
     padding: 0 5% 0 5%;
@@ -165,177 +179,152 @@ footer{
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width:450px;
-    position:absolute;
+    max-width: 450px;
+    position: absolute;
     left: 5%;
-    padding:30px;
-    
+    padding: 30px;
+
 }
+
 .signup-form h2 {
     color: #fafafa;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .text-input {
-    background:transparent;
+    background: transparent;
     color: #fafafa;
     width: 100%;
-    height:25px;
+    height: 25px;
     margin: 5px 0 20px;
-    border:1px solid #fafafa;
-    border-radius:2px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 .text-input:hover {
-   border-color: darkblue;
+    border-color: darkblue;
 }
 
 .join-button {
-    margin-top:20px;
-    border-radius:2px;
-    padding:15px 32px 15px 32px;
-    text-align:center;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
     font-size: 100%;
-    background-color:lightblue;
-    color:darkblue;
-    display:block;
-    
+    background-color: lightblue;
+    color: darkblue;
+    display: block;
+
 }
 
 .join-button:hover {
-    background-color:#fafafa;
-    color:#f16c6b;
+    background-color: #fafafa;
+    color: #f16c6b;
 
 }
 
 /* zen boxes */
 
 #zen-heading {
-    padding:200px 0 50px 0;
-    text-align:center;
+    padding: 200px 0 50px 0;
+    text-align: center;
     font-style: italic;
 }
 
 
 #zen-box {
-    
-    float:left;
-    background-color: rgba(0,0,0, .6);
+
+    float: left;
+    background-color: rgba(0, 0, 0, .6);
     width: 33.3%;
     height: 500px;
     padding: 30px 0 0 10px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
-    background-size:cover;
+    background-size: cover;
     text-shadow: 1px 1px black;
-    
+
 }
+
 .zen-bg-1 {
     background-image: url("../images/seal-scubadiverlife.jpg");
-    background-blend-mode:lighten;
-        }
-    
+    background-blend-mode: lighten;
+}
+
 .zen-bg-2 {
-        background-image: url("../images/yoga-history-com.jpg");
-        background-blend-mode:multiply;
-        }
+    background-image: url("../images/yoga-history-com.jpg");
+    background-blend-mode: multiply;
+}
+
 .zen-bg-3 {
-            background-image: url("../images/Aran-Islands-shamrock-craic.jpeg");
-            background-blend-mode:hard-light;
-            }
+    background-image: url("../images/Aran-Islands-shamrock-craic.jpeg");
+    background-blend-mode: hard-light;
+}
 
+/* Media queries */
 
-            /* Media queries */
+/* For large to medium screens sizes from 1400px wide and down */
+@media screen and (max-width: 1400px) {
 
-/* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px){
+    #logo,
+    #banner {
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    #about-us,
+    #join-us-blarb {
+        margin-left: 30px;
+    }
+
     #zen-box {
-        height: 750px;
-    }
-    
-    
-    #club-ethos{
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+        height: 700px;
     }
 
-    #welcome {
-        padding: 30px 0;
-        margin-top: 0;
+    #zen-heading {
+        text-align: left;
+        padding-left: 30px;
     }
 
-    #left-about, #right-about {
-        width:100%;
-        float:left;
-        padding: 0;
-    }
 
-    #center-about{
+    .signup-form {
         clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
+        position: unset;
+        margin-left: 30px;
+
     }
 
-    #times div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
+
+
+    /* For medium screens sizes from 950px wide and down */
+    @media screen and (max-width: 950px) {
+
+        #logo,
+        #banner {
+            clear: both;
+            text-align: left;
+            margin-left: 30px;
+        }
+
+        #menu {
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
+
+        #zen-box {
+            height: 900px;
+        }
+
+
     }
 
-    hr {
-        display: none;
+    /* For small screens sizes from 800px wide and down */
+    @media screen and (max-width: 800px) {
+        #zen-box {
+            height: 1800px;
+        }
     }
-}
-
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
-    #zen-box {
-        height: 1200px;
-    }
-    #menu{
-        clear: left;
-        float: left;
-        margin-left: 30px; 
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #cover-text{
-        left:0px;
-    }
-
-    #club-ethos{
-        width:90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading, .right-about-heading{
-        width: inherit;
-    }
-
-    .left-about-heading h2, .right-about-heading h2{
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p{
-        text-align: center;
-        padding: 0 20px 0 20px;
-    }
-
-    #photo{
-        column-count: 3;
-    }
-}
-
-/* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px){
-    #photo{
-        column-count: 2;
-    }
-}
